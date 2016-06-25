@@ -1,0 +1,68 @@
+@font-face{
+	font-family: acriform_font;
+	src: url('Nexa Light.otf')
+}
+#heading {
+	color: White;
+	font-family: acriform_font;
+	font-size: 60px;
+	opacity: .5;
+	transition:.5s ease-in-out;
+	margin-left: 35%;
+
+}
+#subheading{
+	color: White;
+	font-family: acriform_font;
+	margin-top: -25px;
+	margin-left:50%;
+
+}
+a { 
+	outline: 0;
+	text-decoration: none;
+ }
+ a:hover #heading{
+ 	opacity: 1;
+ }
+
+div.icons{
+	display: inline-block;
+}
+#Blog{
+	height: 100px;
+	width: 100px;
+	opacity: .25;
+	margin-left: 350px;
+	margin-top: 250px;
+	transition:.5s ease-in-out;
+}
+a:hover #Blog{
+	opacity: 1;
+}
+
+#people{
+	height: 100px;
+	width: 100px;
+	opacity: .25;
+	margin-left: 200px;
+	margin-top: 300px;
+	transition:.5s ease-in-out;
+
+}
+a:hover #people{
+	opacity: 1;
+	transition: .5s;
+}
+#project{
+	height: 100px;
+	width: 100px;
+	opacity: .25;
+	margin-left: 190px;
+	transition:.5s ease-in-out;
+
+}
+a:hover #project{
+	opacity: 1;
+	transition: .5s;
+}
