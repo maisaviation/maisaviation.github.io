@@ -1,0 +1,17 @@
+html tips n tricks
+
+when trying to style a some objext next to the handle of the tag like "p" "a" or "img" add "style =" like <p style= font family:papyrus> this is refferencing it to css. Style will not be need if only 1 attribute is being given.
+
+use ";" between attributes to seperate them
+
+important attributes-
+
+To change font: font-family
+to change font size: font-size
+To change font colour: color
+To align text: text-align(center left or right)
+Alternativley for precise alignment: margin-(top,left,right,or bottom)(in % or pixels)
+To change opacity:opacity(in % or decimal from 0 to 1)
+for changing table border width: border(pixels)
+the <th> tag which is a part of <tablehead> which is a part of <table> and makes the text in it bold can make use of: colspan(number)(to increase number of columns)
+Elements can be positioned using the display attribute: display (block prevents anything else being placed at the level of the objects height in the page) (inline lets objects sit next to each other taking as much space as they need)(inline-block lets elements sit next to each other but the may never over lap)(none makes the contents dissapear)

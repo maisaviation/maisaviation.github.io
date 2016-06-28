@@ -1,0 +1,72 @@
+@font-face{
+	font-family: acriform_font;
+	src: url('Nexa Light.otf')
+}
+#test{
+	color: White;
+}
+div.navbar{
+	height: 55px;
+	width:100%;
+	background-color: #F28500;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+
+}
+#title{
+	font-family: acriform_font;
+	font-size: 45px;
+	color: White;
+	position: fixed;
+	left:0;
+	margin-top:0;
+	opacity: .5;
+	transition: .5s ease-in-out;
+	display: inline;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+}
+a:hover #title{
+	opacity: 1;
+}
+#blog{
+	font-family: acriform_font;
+	font-size: 30px;
+	color: White;
+	position: fixed;
+	display: inline;
+	margin-left: 400px;
+	margin-top: 10px;
+	opacity: .5;
+	transition: .5s ease-in-out
+}
+#work{
+	font-family: acriform_font;
+	font-size: 30px;
+	color: White;
+	position: fixed;
+	display: inline;
+	margin-left: 900px;
+	margin-top: 10px;
+	opacity: .5;
+	transition: .5s ease-in-out
+}
+#people{
+	font-family: acriform_font;
+	font-size: 30px;
+	color: White;
+	display: inline;
+	position: fixed;
+	margin-left: 650px;
+	margin-top: 10px;
+}
+a:hover #blog{
+	opacity: 1;
+}
+a:hover #work{
+	opacity: 1;
+}
