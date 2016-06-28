@@ -78,10 +78,6 @@ a:hover #work{
 	opacity: 1;
 }
 .info{
-	position: relative;;
-	z-index: -1;
-}
-.info{
 	height: 1650px;
 	width:750px;
 	position: absolute;
@@ -89,7 +85,7 @@ a:hover #work{
 	left:350;
 	display: block;
 	opacity: 1;
-	margin-top: 20px;
+	margin-top: 74px;
 	margin-left: 345px;
 	border-radius: 6px;
 	z-index: -1;
@@ -103,7 +99,7 @@ a:hover #work{
 	left:350;
 	display: block;
 	opacity: .5;
-	margin-top: 20px;
+	margin-top: 74px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -2;
@@ -121,7 +117,7 @@ img{
 	display: block;
 	z-index: -1;
 	position: absolute;
-	margin-top: 1750px;
+	margin-top: 1804px;
 	margin-left: 345px;
 	border-radius: 8px;
 }
@@ -136,7 +132,7 @@ img{
 	background-color: #FFFFFF;
 	z-index: -2;
 	position: absolute;
-	margin-top: 1750px;
+	margin-top: 1804px;
 	margin-left: 345px;
 	border-radius: 8px;
 	opacity: .5;
