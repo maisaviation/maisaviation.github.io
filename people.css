@@ -13,6 +13,7 @@ div.navbar{
 	left:0;
 	right:0;
 	top:0;
+	z-index: 1;
 
 }
 #title{
@@ -25,6 +26,8 @@ div.navbar{
 	opacity: .5;
 	transition: .5s ease-in-out;
 	display: inline;
+	z-index: 1;
+
 }
 a{
 	text-decoration: none;
@@ -43,6 +46,8 @@ a:hover #title{
 	margin-top: 10px;
 	opacity: .5;
 	transition: .5s ease-in-out
+	z-index: 1;
+
 }
 #work{
 	font-family: acriform_font;
@@ -54,6 +59,7 @@ a:hover #title{
 	margin-top: 10px;
 	opacity: .5;
 	transition: .5s ease-in-out
+	z-index: 1;
 }
 #people{
 	font-family: acriform_font;
@@ -63,6 +69,7 @@ a:hover #title{
 	position: fixed;
 	margin-left: 650px;
 	margin-top: 10px;
+	z-index: 1;
 }
 a:hover #blog{
 	opacity: 1;
@@ -70,3 +77,68 @@ a:hover #blog{
 a:hover #work{
 	opacity: 1;
 }
+.info{
+	position: relative;;
+	z-index: -1;
+}
+.info{
+	height: 1650px;
+	width:750px;
+	position: absolute;
+	top:54;
+	left:350;
+	display: block;
+	opacity: 1;
+	margin-top: 20px;
+	border-radius: 6px;
+	z-index: -1;
+}
+.bgcol{
+	height: 1650px;
+	width:750px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top:54;
+	left:350;
+	display: block;
+	opacity: .5;
+	margin-top: 20px;
+	border-radius: 8px;
+	z-index: -2;
+}
+img{
+	height: 200px;
+	width:200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.statement{
+	height:212.4px;
+	width: 750px;
+	display: block;
+	z-index: -1;
+	position: absolute;
+	margin-top: 1750px;
+	margin-left: 345px;
+	border-radius: 8px;
+}
+#mst{
+	font-family: acriform_font;
+	font-size: 35px;
+}
+.mscol{
+	height:212.4px;
+	width: 750px;
+	display: block;
+	background-color: #FFFFFF;
+	z-index: -2;
+	position: absolute;
+	margin-top: 1750px;
+	margin-left: 345px;
+	border-radius: 8px;
+	opacity: .5;
+}
+
+
+
