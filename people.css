@@ -1,6 +1,15 @@
-@font-face{
+@font-face{                            
 	font-family: acriform_font;
 	src: url('Nexa Light.otf')
+}
+@font-face{
+	font-family: droid;
+	src: url('DroidSerif-Regular.ttf');
+}
+}
+@font-face{
+	font-family: opensan_font;
+	src: url('OpenSans-Regular.ttf')
 }
 #test{
 	color: White;
@@ -71,18 +80,31 @@ a:hover #title{
 	margin-top: 10px;
 	z-index: 1;
 }
+#talk{
+	font-family: acriform_font;
+	font-size: 30px;
+	color: White;
+	position: fixed;
+	display: inline;
+	margin-left: 1150px;
+	margin-top: 10px;
+	opacity: .5;
+	transition: .5s ease-in-out
+	z-index: 1;
+}
 a:hover #blog{
 	opacity: 1;
 }
 a:hover #work{
 	opacity: 1;
 }
+a:hover #talk{
+	opacity: 1;
+}
 .info{
 	height: 1650px;
 	width:750px;
 	position: absolute;
-	top:54;
-	left:350;
 	display: block;
 	opacity: 1;
 	margin-top: 74px;
@@ -95,8 +117,6 @@ a:hover #work{
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
-	top:54;
-	left:350;
 	display: block;
 	opacity: .5;
 	margin-top: 74px;
@@ -111,6 +131,10 @@ img{
 	margin-top: 20px;
 	margin-right: 20px;
 }
+#des{
+	font-family: droid;
+
+}
 .statement{
 	height:212.4px;
 	width: 750px;
@@ -122,7 +146,7 @@ img{
 	border-radius: 8px;
 }
 #mst{
-	font-family: acriform_font;
+	font-family: opensan;
 	font-size: 35px;
 }
 .mscol{
@@ -136,6 +160,31 @@ img{
 	margin-left: 345px;
 	border-radius: 8px;
 	opacity: .5;
+}
+.ccol{
+	height:212.4px;
+	width: 750px;
+	display: block;
+	background-color: #FFFFFF;
+	z-index: -2;
+	position: absolute;
+	margin-top: 2096.4px;
+	margin-left: 345px;
+	border-radius: 8px;
+	opacity: .5;
+}
+.contact{
+	height:212.4px;
+	width: 750px;
+	display: block;
+	z-index: -1;
+	position: absolute;
+	margin-top: 2096.4px;
+	margin-left: 345px;
+	border-radius: 8px;
+}
+p#mail{
+	font-family: opensan_font;
 }
 
 

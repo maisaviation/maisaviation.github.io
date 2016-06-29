@@ -2,6 +2,10 @@
 	font-family: acriform_font;
 	src: url('Nexa Light.otf')
 }
+@font-face{
+	font-family: josefin;
+	src: url('JosefinSans-Regular.ttf')
+}
 #test{
 	color: White;
 }
@@ -64,9 +68,94 @@ a:hover #title{
 	opacity: .5;
 	transition: .5s ease-in-out
 }
+#talk{
+	font-family: acriform_font;
+	font-size: 30px;
+	color: White;
+	position: fixed;
+	display: inline;
+	margin-left: 1150px;
+	margin-top: 10px;
+	opacity: .5;
+	transition: .5s ease-in-out
+	z-index: 1;
+}
+a:hover #talk{
+	opacity: 1;
+}
 a:hover #blog{
 	opacity: 1;
 }
 a:hover #people{
 	opacity: 1;
+}
+div.TSX {
+	height: 100px;
+	width:750px;
+	background-color: #FFFFFF;
+	position: absolute;
+	display: block;
+	opacity: .5;
+	margin-top: 74px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -2;
+}
+div.TSXINF {
+	height: 100px;
+	width:750px;
+	position: absolute;
+	display: block;
+	margin-top: 74px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -1;
+}
+div.TFV {
+	height: 100px;
+	width:750px;
+	background-color: #FFFFFF;
+	position: absolute;
+	display:block;
+	opacity: .5;
+	margin-top: 222px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -2;
+}
+div.TFVINF {
+	height: 100px;
+	width:750px;
+	position: absolute;
+	display: block;
+	margin-top: 222px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -1;
+}
+div.TFR {
+	height: 100px;
+	width:750px;
+	background-color: #FFFFFF;
+	position: absolute;
+	display: block;
+	opacity: .5;
+	margin-top: 366px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -2;
+}
+div.TFRINF {
+	height: 100px;
+	width:750px;
+	position: absolute;
+	display: block;
+	margin-top: 366px;
+	margin-left: 345px;
+	border-radius: 8px;
+	z-index: -1;
+}
+.year{
+	text-align: center;
+	font-family: josefin;
 }
