@@ -6,10 +6,13 @@
 	font-family: droid;
 	src: url('DroidSerif-Regular.ttf');
 }
+@font-face{
+	font-family: hel;
+	src: url('HelveticaNeue.ttf');
 }
 @font-face{
-	font-family: opensan_font;
-	src: url('OpenSans-Regular.ttf')
+	font-family: open;
+	src: url('OpenSans-Light.ttf')
 }
 #test{
 	color: White;
@@ -41,6 +44,7 @@ div.navbar{
 a{
 	text-decoration: none;
 	outline: 0;
+	color: inherit;
 }
 a:hover #title{
 	opacity: 1;
@@ -113,7 +117,7 @@ a:hover #talk{
 	z-index: -1;
 }
 .bgcol{
-	height: 1650px;
+	height: 950px;
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
@@ -132,7 +136,7 @@ img{
 	margin-right: 20px;
 }
 #des{
-	font-family: droid;
+	font-family: open;
 
 }
 .statement{
@@ -141,13 +145,15 @@ img{
 	display: block;
 	z-index: -1;
 	position: absolute;
-	margin-top: 1804px;
+	margin-top: 1104px;
 	margin-left: 345px;
 	border-radius: 8px;
 }
 #mst{
-	font-family: opensan;
-	font-size: 35px;
+	font-family: hel;
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 5.5%;
 }
 .mscol{
 	height:212.4px;
@@ -156,7 +162,7 @@ img{
 	background-color: #FFFFFF;
 	z-index: -2;
 	position: absolute;
-	margin-top: 1804px;
+	margin-top: 1104px;
 	margin-left: 345px;
 	border-radius: 8px;
 	opacity: .5;
@@ -168,7 +174,7 @@ img{
 	background-color: #FFFFFF;
 	z-index: -2;
 	position: absolute;
-	margin-top: 2096.4px;
+	margin-top: 1396.4px;
 	margin-left: 345px;
 	border-radius: 8px;
 	opacity: .5;
@@ -179,12 +185,28 @@ img{
 	display: block;
 	z-index: -1;
 	position: absolute;
-	margin-top: 2096.4px;
+	margin-top: 1396.4px;
 	margin-left: 345px;
 	border-radius: 8px;
 }
-p#mail{
-	font-family: opensan_font;
+p#mail {
+	font-family: hel;
+	font-size: 1.7em;
+	text-align: center;
+}
+p#CI {
+	font-family: hel;
+	font-size: 1em;
+	text-align: center;
+}
+p#phonenumber {
+	font-family: hel;
+	font-size:1.7em;
+	margin-top: 5%;
+	text-align:center;
+}
+#xtrainfo{
+	color: #0B0080 ;
 }
 
 

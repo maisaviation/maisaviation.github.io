@@ -6,6 +6,10 @@
 	font-family: josefin;
 	src: url('JosefinSans-Regular.ttf')
 }
+@font-face{
+	font-family: open;
+	src: url('OpenSans-Light.ttf')
+}
 #test{
 	color: White;
 }
@@ -90,7 +94,7 @@ a:hover #people{
 	opacity: 1;
 }
 div.TSX {
-	height: 100px;
+	height: 1090px;
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
@@ -112,13 +116,13 @@ div.TSXINF {
 	z-index: -1;
 }
 div.TFV {
-	height: 100px;
+	height: 400px;
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
 	display:block;
 	opacity: .5;
-	margin-top: 222px;
+	margin-top: 1212px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -2;
@@ -128,19 +132,19 @@ div.TFVINF {
 	width:750px;
 	position: absolute;
 	display: block;
-	margin-top: 222px;
+	margin-top: 1212px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -1;
 }
 div.TFR {
-	height: 100px;
+	height: 200px;
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
 	display: block;
 	opacity: .5;
-	margin-top: 366px;
+	margin-top: 1656px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -2;
@@ -150,12 +154,40 @@ div.TFRINF {
 	width:750px;
 	position: absolute;
 	display: block;
-	margin-top: 366px;
+	margin-top: 1656px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -1;
 }
 .year{
 	text-align: center;
-	font-family: josefin;
+	font-family: open;
+	font-size: 2em;
+}
+.intros{
+	text-align: center;
+	font-family: open;
+	margin-bottom: 5%;
+}
+#wrk{
+	margin-left: 5%;
+}
+tr#wkr>td {
+	padding-bottom: 4%;
+}
+#tmbnl{
+	height:150px;
+	width: 150px;
+}
+#tgs{
+	margin-left: 100px;
+	font-family: open;
+	font-size: 1em;
+}
+a{
+	color: inherit;
+}
+.cs{
+	text-align: center;
+	font-family: open;
 }
