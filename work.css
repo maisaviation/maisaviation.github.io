@@ -94,7 +94,7 @@ a:hover #people{
 	opacity: 1;
 }
 div.TSX {
-	height: 1090px;
+	height: 1290px;
 	width:750px;
 	background-color: #FFFFFF;
 	position: absolute;
@@ -122,7 +122,7 @@ div.TFV {
 	position: absolute;
 	display:block;
 	opacity: .5;
-	margin-top: 1212px;
+	margin-top: 1412px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -2;
@@ -132,7 +132,7 @@ div.TFVINF {
 	width:750px;
 	position: absolute;
 	display: block;
-	margin-top: 1212px;
+	margin-top: 1412px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -1;
@@ -144,7 +144,7 @@ div.TFR {
 	position: absolute;
 	display: block;
 	opacity: .5;
-	margin-top: 1656px;
+	margin-top: 1856px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -2;
@@ -154,7 +154,7 @@ div.TFRINF {
 	width:750px;
 	position: absolute;
 	display: block;
-	margin-top: 1656px;
+	margin-top: 1856px;
 	margin-left: 345px;
 	border-radius: 8px;
 	z-index: -1;
