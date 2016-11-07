@@ -29,7 +29,7 @@ div.navbar{
 	color: White;
 	position: fixed;
 	left:0;
-	margin-top:0;
+	margin-top:10px;
 	opacity: .5;
 	transition: .5s ease-in-out;
 	display: inline;
@@ -48,7 +48,7 @@ a:hover #title{
 	position: fixed;
 	display: inline;
 	margin-left: 400px;
-	margin-top: 10px;
+	margin-top: 15px;
 	opacity: .5;
 	transition: .5s ease-in-out
 }
@@ -59,7 +59,7 @@ a:hover #title{
 	position: fixed;
 	display: inline;
 	margin-left: 900px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 #people{
 	font-family: acriform_font;
@@ -68,7 +68,7 @@ a:hover #title{
 	display: inline;
 	position: fixed;
 	margin-left: 650px;
-	margin-top: 10px;
+	margin-top: 15px;
 	opacity: .5;
 	transition: .5s ease-in-out
 }
@@ -79,7 +79,7 @@ a:hover #title{
 	position: fixed;
 	display: inline;
 	margin-left: 1150px;
-	margin-top: 10px;
+	margin-top: 15px;
 	opacity: .5;
 	transition: .5s ease-in-out
 	z-index: 1;
