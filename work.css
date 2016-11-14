@@ -41,7 +41,7 @@ a{
 a:hover #title{
 	opacity: 1;
 }
-#blog{
+/*#blog{
 	font-family: acriform_font;
 	font-size: 30px;
 	color: White;
@@ -51,14 +51,14 @@ a:hover #title{
 	margin-top: 15px;
 	opacity: .5;
 	transition: .5s ease-in-out
-}
+}*/
 #work{
 	font-family: acriform_font;
 	font-size: 30px;
 	color: White;
 	position: fixed;
 	display: inline;
-	margin-left: 900px;
+	margin-left: 400px;
 	margin-top: 15px;
 }
 #people{
@@ -67,7 +67,7 @@ a:hover #title{
 	color: White;
 	display: inline;
 	position: fixed;
-	margin-left: 650px;
+	margin-left: 900px;
 	margin-top: 15px;
 	opacity: .5;
 	transition: .5s ease-in-out
@@ -78,10 +78,10 @@ a:hover #title{
 	color: White;
 	position: fixed;
 	display: inline;
-	margin-left: 1150px;
+	margin-left: 650px; /*1150px*/
 	margin-top: 15px;
 	opacity: .5;
-	transition: .5s ease-in-out
+	transition: .5s ease-in-out;
 	z-index: 1;
 }
 a:hover #talk{
